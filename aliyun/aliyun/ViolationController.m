@@ -8,6 +8,8 @@
 
 #import "ViolationController.h"
 #import "TableViewCell.h"
+//#import "ViolationModel.h"
+#import "NSObject+YYModel.h"
 #define IMScreenWidth [UIScreen mainScreen].bounds.size.width
 #define IMScreenHeight [UIScreen mainScreen].bounds.size.height
 #define ShowAlertWithMsg(msg) UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"温馨提示" message:msg preferredStyle:UIAlertControllerStyleAlert];\
@@ -83,14 +85,18 @@ UIAlertAction *sureAction = [UIAlertAction actionWithTitle:@"确 定" style:UIAl
     NSData *data = [bodys dataUsingEncoding: NSUTF8StringEncoding];
     [request setHTTPBody: data];
     NSURLSession *requestSession = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
-    NSURLSessionDataTask *task = [requestSession dataTaskWithRequest:request
-                                                   completionHandler:^(NSData * _Nullable body , NSURLResponse * _Nullable response, NSError * _Nullable error) {
-                                                       NSLog(@"Response object: %@" , response);
-                                                       NSString *bodyString = [[NSString alloc] initWithData:body encoding:NSUTF8StringEncoding];
-                                                       
-                                                       //打印应答中的body
-                                                       NSLog(@"Response body: %@" , bodyString);
-                                                   }];
+    
+    NSURLSessionDataTask *task = [requestSession dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        NSLog(@"Response object: %@" , response);
+        NSString *bodyString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+        
+        
+        ViolationModel *model = [ViolationModel modelWithJSON:data];
+//
+//        NSString *msg = [NSString stringWithFormat:@"%@",model.data];
+        //打印应答中的body
+        NSLog(@"Response body: %@" , bodyString);
+    }];
     
     [task resume];
 }

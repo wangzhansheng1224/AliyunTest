@@ -19,6 +19,9 @@
 		D2DEFD671FA18B2600B9D327 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD661FA18B2600B9D327 /* TableViewController.m */; };
 		D2DEFD791FA1BE6700B9D327 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD771FA1BE6700B9D327 /* TableViewCell.m */; };
 		D2DEFD7A1FA1BE6700B9D327 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2DEFD781FA1BE6700B9D327 /* TableViewCell.xib */; };
+		D2DEFD811FA1CCC900B9D327 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD7E1FA1CCC900B9D327 /* NSObject+YYModel.m */; };
+		D2DEFD821FA1CCC900B9D327 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD801FA1CCC900B9D327 /* YYClassInfo.m */; };
+		D2DEFD851FA1CD2A00B9D327 /* ViolationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD841FA1CD2A00B9D327 /* ViolationModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,12 @@
 		D2DEFD761FA1BE6700B9D327 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		D2DEFD771FA1BE6700B9D327 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		D2DEFD781FA1BE6700B9D327 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		D2DEFD7D1FA1CCC900B9D327 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
+		D2DEFD7E1FA1CCC900B9D327 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
+		D2DEFD7F1FA1CCC900B9D327 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
+		D2DEFD801FA1CCC900B9D327 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
+		D2DEFD831FA1CD2A00B9D327 /* ViolationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViolationModel.h; sourceTree = "<group>"; };
+		D2DEFD841FA1CD2A00B9D327 /* ViolationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViolationModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,9 +129,12 @@
 				D2DEFD301FA0A53000B9D327 /* ViewController.m */,
 				D2DEFD5C1FA186D100B9D327 /* ViolationController.h */,
 				D2DEFD5D1FA186D100B9D327 /* ViolationController.m */,
+				D2DEFD831FA1CD2A00B9D327 /* ViolationModel.h */,
+				D2DEFD841FA1CD2A00B9D327 /* ViolationModel.m */,
 				D2DEFD761FA1BE6700B9D327 /* TableViewCell.h */,
 				D2DEFD771FA1BE6700B9D327 /* TableViewCell.m */,
 				D2DEFD781FA1BE6700B9D327 /* TableViewCell.xib */,
+				D2DEFD7B1FA1CCB500B9D327 /* Third */,
 				D2DEFD321FA0A53000B9D327 /* Main.storyboard */,
 				D2DEFD351FA0A53000B9D327 /* Assets.xcassets */,
 				D2DEFD371FA0A53000B9D327 /* LaunchScreen.storyboard */,
@@ -156,6 +168,25 @@
 				D2DEFD501FA0A53000B9D327 /* Info.plist */,
 			);
 			path = aliyunUITests;
+			sourceTree = "<group>";
+		};
+		D2DEFD7B1FA1CCB500B9D327 /* Third */ = {
+			isa = PBXGroup;
+			children = (
+				D2DEFD7C1FA1CCC900B9D327 /* Model */,
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		D2DEFD7C1FA1CCC900B9D327 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D2DEFD7D1FA1CCC900B9D327 /* NSObject+YYModel.h */,
+				D2DEFD7E1FA1CCC900B9D327 /* NSObject+YYModel.m */,
+				D2DEFD7F1FA1CCC900B9D327 /* YYClassInfo.h */,
+				D2DEFD801FA1CCC900B9D327 /* YYClassInfo.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -295,7 +326,10 @@
 			files = (
 				D2DEFD791FA1BE6700B9D327 /* TableViewCell.m in Sources */,
 				D2DEFD311FA0A53000B9D327 /* ViewController.m in Sources */,
+				D2DEFD811FA1CCC900B9D327 /* NSObject+YYModel.m in Sources */,
 				D2DEFD671FA18B2600B9D327 /* TableViewController.m in Sources */,
+				D2DEFD821FA1CCC900B9D327 /* YYClassInfo.m in Sources */,
+				D2DEFD851FA1CD2A00B9D327 /* ViolationModel.m in Sources */,
 				D2DEFD5E1FA186D100B9D327 /* ViolationController.m in Sources */,
 				D2DEFD2E1FA0A53000B9D327 /* AppDelegate.m in Sources */,
 				D2DEFD2B1FA0A53000B9D327 /* main.m in Sources */,
