@@ -22,6 +22,8 @@
     self.tableView.tableFooterView=[[UIView alloc]init];
     [self.view addSubview:self.tableView];
     self.tableView.rowHeight = 50;
+    //分割符边距
+    self.tableView.separatorInset = UIEdgeInsetsMake(0, 0, 0, 0);
     
     // Do any additional setup after loading the view.
 }

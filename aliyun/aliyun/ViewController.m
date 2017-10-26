@@ -24,7 +24,7 @@
 //    [self queryTodayOil];//今日油价
 //    [self queryVehicleLimit];//尾号限行
 //    [self queryViolation];//违章查询
-    [self queryViolationCondition];//违章查询条件
+//    [self queryViolationCondition];//违章查询条件
     
     
     // Do any additional setup after loading the view, typically from a nib.
@@ -116,6 +116,29 @@
                                                        NSLog(@"Response body: %@" , bodyString);
                                                    }];
     
+    [task resume];
+}
+
+-(void)queryViolationCondition{
+    NSString *appcode = @"bee6471d2bf14756a91d816b972267e3";
+    NSString *host = @"http://ddycapi.market.alicloudapi.com";
+    NSString *path = @"/violation/condition";
+    NSString *method = @"GET";
+    NSString *querys = @"";
+    NSString *url = [NSString stringWithFormat:@"%@%@%@",  host,  path , querys];
+    NSString *bodys = @"";
+    
+    NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:[NSURL URLWithString: url]  cachePolicy:1  timeoutInterval:  5];
+    request.HTTPMethod  =  method;
+    [request addValue:  [NSString  stringWithFormat:@"APPCODE %@" ,  appcode]  forHTTPHeaderField:  @"Authorization"];
+    NSURLSession *requestSession = [NSURLSession sessionWithConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
+    NSURLSessionDataTask *task = [requestSession dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        NSLog(@"Response object: %@" , response);
+        NSString *bodyString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+        
+        //打印应答中的body
+        NSLog(@"Response body: %@" , bodyString);
+    }];
     [task resume];
 }
 

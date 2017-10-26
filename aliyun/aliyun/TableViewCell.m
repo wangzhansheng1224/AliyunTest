@@ -1,14 +1,14 @@
 //
-//  LocationTableViewCell.m
+//  TableViewCell.m
 //  aliyun
 //
 //  Created by 王战胜 on 2017/10/26.
 //  Copyright © 2017年 gocomtech. All rights reserved.
 //
 
-#import "LocationTableViewCell.h"
+#import "TableViewCell.h"
 
-@implementation LocationTableViewCell
+@implementation TableViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];

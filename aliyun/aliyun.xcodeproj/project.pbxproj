@@ -17,9 +17,8 @@
 		D2DEFD4F1FA0A53000B9D327 /* aliyunUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD4E1FA0A53000B9D327 /* aliyunUITests.m */; };
 		D2DEFD5E1FA186D100B9D327 /* ViolationController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD5D1FA186D100B9D327 /* ViolationController.m */; };
 		D2DEFD671FA18B2600B9D327 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD661FA18B2600B9D327 /* TableViewController.m */; };
-		D2DEFD6E1FA18EC400B9D327 /* LocationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD6C1FA18EC400B9D327 /* LocationTableViewCell.m */; };
-		D2DEFD6F1FA18EC400B9D327 /* LocationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2DEFD6D1FA18EC400B9D327 /* LocationTableViewCell.xib */; };
-		D2DEFD721FA1908000B9D327 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD711FA1908000B9D327 /* LocationViewController.m */; };
+		D2DEFD791FA1BE6700B9D327 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD771FA1BE6700B9D327 /* TableViewCell.m */; };
+		D2DEFD7A1FA1BE6700B9D327 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2DEFD781FA1BE6700B9D327 /* TableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,11 +59,9 @@
 		D2DEFD5D1FA186D100B9D327 /* ViolationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViolationController.m; sourceTree = "<group>"; };
 		D2DEFD651FA18B2600B9D327 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
 		D2DEFD661FA18B2600B9D327 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
-		D2DEFD6B1FA18EC400B9D327 /* LocationTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationTableViewCell.h; sourceTree = "<group>"; };
-		D2DEFD6C1FA18EC400B9D327 /* LocationTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationTableViewCell.m; sourceTree = "<group>"; };
-		D2DEFD6D1FA18EC400B9D327 /* LocationTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationTableViewCell.xib; sourceTree = "<group>"; };
-		D2DEFD701FA1908000B9D327 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
-		D2DEFD711FA1908000B9D327 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		D2DEFD761FA1BE6700B9D327 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		D2DEFD771FA1BE6700B9D327 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		D2DEFD781FA1BE6700B9D327 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,11 +120,9 @@
 				D2DEFD301FA0A53000B9D327 /* ViewController.m */,
 				D2DEFD5C1FA186D100B9D327 /* ViolationController.h */,
 				D2DEFD5D1FA186D100B9D327 /* ViolationController.m */,
-				D2DEFD701FA1908000B9D327 /* LocationViewController.h */,
-				D2DEFD711FA1908000B9D327 /* LocationViewController.m */,
-				D2DEFD6B1FA18EC400B9D327 /* LocationTableViewCell.h */,
-				D2DEFD6C1FA18EC400B9D327 /* LocationTableViewCell.m */,
-				D2DEFD6D1FA18EC400B9D327 /* LocationTableViewCell.xib */,
+				D2DEFD761FA1BE6700B9D327 /* TableViewCell.h */,
+				D2DEFD771FA1BE6700B9D327 /* TableViewCell.m */,
+				D2DEFD781FA1BE6700B9D327 /* TableViewCell.xib */,
 				D2DEFD321FA0A53000B9D327 /* Main.storyboard */,
 				D2DEFD351FA0A53000B9D327 /* Assets.xcassets */,
 				D2DEFD371FA0A53000B9D327 /* LaunchScreen.storyboard */,
@@ -230,6 +225,7 @@
 				TargetAttributes = {
 					D2DEFD251FA0A53000B9D327 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6KU368K7QY;
 						ProvisioningStyle = Automatic;
 					};
 					D2DEFD3E1FA0A53000B9D327 = {
@@ -270,8 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2DEFD391FA0A53000B9D327 /* LaunchScreen.storyboard in Resources */,
+				D2DEFD7A1FA1BE6700B9D327 /* TableViewCell.xib in Resources */,
 				D2DEFD361FA0A53000B9D327 /* Assets.xcassets in Resources */,
-				D2DEFD6F1FA18EC400B9D327 /* LocationTableViewCell.xib in Resources */,
 				D2DEFD341FA0A53000B9D327 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,12 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2DEFD791FA1BE6700B9D327 /* TableViewCell.m in Sources */,
 				D2DEFD311FA0A53000B9D327 /* ViewController.m in Sources */,
 				D2DEFD671FA18B2600B9D327 /* TableViewController.m in Sources */,
-				D2DEFD721FA1908000B9D327 /* LocationViewController.m in Sources */,
 				D2DEFD5E1FA186D100B9D327 /* ViolationController.m in Sources */,
 				D2DEFD2E1FA0A53000B9D327 /* AppDelegate.m in Sources */,
-				D2DEFD6E1FA18EC400B9D327 /* LocationTableViewCell.m in Sources */,
 				D2DEFD2B1FA0A53000B9D327 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +447,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6KU368K7QY;
 				INFOPLIST_FILE = aliyun/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -464,6 +460,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6KU368K7QY;
 				INFOPLIST_FILE = aliyun/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
