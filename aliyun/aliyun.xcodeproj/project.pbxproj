@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D2099C8E1FA2DF7700949584 /* WZSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2099C8D1FA2DF7700949584 /* WZSModel.m */; };
 		D2DEFD2B1FA0A53000B9D327 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD2A1FA0A53000B9D327 /* main.m */; };
 		D2DEFD2E1FA0A53000B9D327 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD2D1FA0A53000B9D327 /* AppDelegate.m */; };
 		D2DEFD311FA0A53000B9D327 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD301FA0A53000B9D327 /* ViewController.m */; };
@@ -19,9 +20,7 @@
 		D2DEFD671FA18B2600B9D327 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD661FA18B2600B9D327 /* TableViewController.m */; };
 		D2DEFD791FA1BE6700B9D327 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD771FA1BE6700B9D327 /* TableViewCell.m */; };
 		D2DEFD7A1FA1BE6700B9D327 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2DEFD781FA1BE6700B9D327 /* TableViewCell.xib */; };
-		D2DEFD811FA1CCC900B9D327 /* NSObject+YYModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD7E1FA1CCC900B9D327 /* NSObject+YYModel.m */; };
-		D2DEFD821FA1CCC900B9D327 /* YYClassInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD801FA1CCC900B9D327 /* YYClassInfo.m */; };
-		D2DEFD851FA1CD2A00B9D327 /* ViolationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD841FA1CD2A00B9D327 /* ViolationModel.m */; };
+		D6651331B1335F8ADB3FC651 /* Pods_aliyun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85E709FEA36C19DDA0D5A5D /* Pods_aliyun.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15B973FB9A1D9E4EA4C85FA2 /* Pods-aliyun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aliyun.release.xcconfig"; path = "Pods/Target Support Files/Pods-aliyun/Pods-aliyun.release.xcconfig"; sourceTree = "<group>"; };
+		2D2A97C683F20909B4CBB44F /* Pods-aliyun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aliyun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aliyun/Pods-aliyun.debug.xcconfig"; sourceTree = "<group>"; };
+		C85E709FEA36C19DDA0D5A5D /* Pods_aliyun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aliyun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2099C881FA2D6CF00949584 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D2099C8C1FA2DF7700949584 /* WZSModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZSModel.h; sourceTree = "<group>"; };
+		D2099C8D1FA2DF7700949584 /* WZSModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZSModel.m; sourceTree = "<group>"; };
 		D2DEFD261FA0A53000B9D327 /* aliyun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aliyun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2DEFD2A1FA0A53000B9D327 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D2DEFD2C1FA0A53000B9D327 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -65,12 +70,6 @@
 		D2DEFD761FA1BE6700B9D327 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
 		D2DEFD771FA1BE6700B9D327 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		D2DEFD781FA1BE6700B9D327 /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
-		D2DEFD7D1FA1CCC900B9D327 /* NSObject+YYModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+YYModel.h"; sourceTree = "<group>"; };
-		D2DEFD7E1FA1CCC900B9D327 /* NSObject+YYModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+YYModel.m"; sourceTree = "<group>"; };
-		D2DEFD7F1FA1CCC900B9D327 /* YYClassInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYClassInfo.h; sourceTree = "<group>"; };
-		D2DEFD801FA1CCC900B9D327 /* YYClassInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYClassInfo.m; sourceTree = "<group>"; };
-		D2DEFD831FA1CD2A00B9D327 /* ViolationModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViolationModel.h; sourceTree = "<group>"; };
-		D2DEFD841FA1CD2A00B9D327 /* ViolationModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViolationModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6651331B1335F8ADB3FC651 /* Pods_aliyun.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +98,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		65FF8BF73F1403BD81616299 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D2A97C683F20909B4CBB44F /* Pods-aliyun.debug.xcconfig */,
+				15B973FB9A1D9E4EA4C85FA2 /* Pods-aliyun.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF74E63F082DC0D3A29A1311 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C85E709FEA36C19DDA0D5A5D /* Pods_aliyun.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D2DEFD1D1FA0A53000B9D327 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +122,8 @@
 				D2DEFD421FA0A53000B9D327 /* aliyunTests */,
 				D2DEFD4D1FA0A53000B9D327 /* aliyunUITests */,
 				D2DEFD271FA0A53000B9D327 /* Products */,
+				65FF8BF73F1403BD81616299 /* Pods */,
+				CF74E63F082DC0D3A29A1311 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,12 +148,12 @@
 				D2DEFD301FA0A53000B9D327 /* ViewController.m */,
 				D2DEFD5C1FA186D100B9D327 /* ViolationController.h */,
 				D2DEFD5D1FA186D100B9D327 /* ViolationController.m */,
-				D2DEFD831FA1CD2A00B9D327 /* ViolationModel.h */,
-				D2DEFD841FA1CD2A00B9D327 /* ViolationModel.m */,
+				D2099C8C1FA2DF7700949584 /* WZSModel.h */,
+				D2099C8D1FA2DF7700949584 /* WZSModel.m */,
 				D2DEFD761FA1BE6700B9D327 /* TableViewCell.h */,
 				D2DEFD771FA1BE6700B9D327 /* TableViewCell.m */,
 				D2DEFD781FA1BE6700B9D327 /* TableViewCell.xib */,
-				D2DEFD7B1FA1CCB500B9D327 /* Third */,
+				D2099C881FA2D6CF00949584 /* PrefixHeader.pch */,
 				D2DEFD321FA0A53000B9D327 /* Main.storyboard */,
 				D2DEFD351FA0A53000B9D327 /* Assets.xcassets */,
 				D2DEFD371FA0A53000B9D327 /* LaunchScreen.storyboard */,
@@ -170,25 +189,6 @@
 			path = aliyunUITests;
 			sourceTree = "<group>";
 		};
-		D2DEFD7B1FA1CCB500B9D327 /* Third */ = {
-			isa = PBXGroup;
-			children = (
-				D2DEFD7C1FA1CCC900B9D327 /* Model */,
-			);
-			path = Third;
-			sourceTree = "<group>";
-		};
-		D2DEFD7C1FA1CCC900B9D327 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				D2DEFD7D1FA1CCC900B9D327 /* NSObject+YYModel.h */,
-				D2DEFD7E1FA1CCC900B9D327 /* NSObject+YYModel.m */,
-				D2DEFD7F1FA1CCC900B9D327 /* YYClassInfo.h */,
-				D2DEFD801FA1CCC900B9D327 /* YYClassInfo.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D2DEFD531FA0A53000B9D327 /* Build configuration list for PBXNativeTarget "aliyun" */;
 			buildPhases = (
+				F8F8866B5DE53E601512413C /* [CP] Check Pods Manifest.lock */,
 				D2DEFD221FA0A53000B9D327 /* Sources */,
 				D2DEFD231FA0A53000B9D327 /* Frameworks */,
 				D2DEFD241FA0A53000B9D327 /* Resources */,
+				7703B94E944CDFF7C0915C7B /* [CP] Embed Pods Frameworks */,
+				46CD69E6C55FFA2D173FAC22 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -319,6 +322,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		46CD69E6C55FFA2D173FAC22 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aliyun/Pods-aliyun-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7703B94E944CDFF7C0915C7B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-aliyun/Pods-aliyun-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-aliyun/Pods-aliyun-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8F8866B5DE53E601512413C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-aliyun-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D2DEFD221FA0A53000B9D327 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -326,13 +385,11 @@
 			files = (
 				D2DEFD791FA1BE6700B9D327 /* TableViewCell.m in Sources */,
 				D2DEFD311FA0A53000B9D327 /* ViewController.m in Sources */,
-				D2DEFD811FA1CCC900B9D327 /* NSObject+YYModel.m in Sources */,
 				D2DEFD671FA18B2600B9D327 /* TableViewController.m in Sources */,
-				D2DEFD821FA1CCC900B9D327 /* YYClassInfo.m in Sources */,
-				D2DEFD851FA1CD2A00B9D327 /* ViolationModel.m in Sources */,
 				D2DEFD5E1FA186D100B9D327 /* ViolationController.m in Sources */,
 				D2DEFD2E1FA0A53000B9D327 /* AppDelegate.m in Sources */,
 				D2DEFD2B1FA0A53000B9D327 /* main.m in Sources */,
+				D2099C8E1FA2DF7700949584 /* WZSModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,9 +536,12 @@
 		};
 		D2DEFD541FA0A53000B9D327 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D2A97C683F20909B4CBB44F /* Pods-aliyun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6KU368K7QY;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangzhansheng/阿里云/aliyun/aliyun/PrefixHeader.pch";
 				INFOPLIST_FILE = aliyun/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -492,9 +552,12 @@
 		};
 		D2DEFD551FA0A53000B9D327 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15B973FB9A1D9E4EA4C85FA2 /* Pods-aliyun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 6KU368K7QY;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/wangzhansheng/阿里云/aliyun/aliyun/PrefixHeader.pch";
 				INFOPLIST_FILE = aliyun/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

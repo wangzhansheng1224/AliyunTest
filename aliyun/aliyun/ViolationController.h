@@ -12,19 +12,7 @@
 @interface ViolationController : TableViewController
 
 @end
-@interface YYData : NSObject
-@property (nonatomic, assign) uint16_t untreated;
-@property (nonatomic, assign) uint16_t amount;
-@end
-
-@implementation YYData
-@end
 
 
-@interface ViolationModel : NSObject
-@property (nonatomic, assign) BOOL success;
-@property (nonatomic, strong) YYData *data;
-@end
 
-@implementation ViolationModel
-@end
+

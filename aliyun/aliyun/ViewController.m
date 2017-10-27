@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "ViolationController.h"
+#import "WZSModel.h"
 
 @interface ViewController ()
 
@@ -34,6 +35,8 @@
     if (indexPath.row == 0) {
         ViolationController *vc = [[ViolationController alloc]init];
         [self.navigationController pushViewController:vc animated:YES];
+    }else if (indexPath.row == 1){
+        [self queryVehicleLimit];
     }
 }
 
@@ -71,7 +74,7 @@
     NSString *host = @"http://jisuclwhxx.market.alicloudapi.com";
     NSString *path = @"vehiclelimit/city";
     NSString *method = @"GET";
-    NSString *querys = @"city=beijing&date=2017-10-25";
+    NSString *querys = @"city=beijing&date=2017-10-27";
     NSString *url = [NSString stringWithFormat:@"%@/%@?%@",  host,  path , querys];
 //    NSString *bodys = @"";
     
@@ -83,6 +86,8 @@
         NSLog(@"Response object: %@" , response);
         NSString *bodyString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
         
+        VehicleLimitModel *model = [VehicleLimitModel modelWithJSON:data];
+        NSLog(@"%@",model);
         //打印应答中的body
         NSLog(@"Response body: %@" , bodyString);
     }];

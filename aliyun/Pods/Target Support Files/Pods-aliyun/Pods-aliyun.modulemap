@@ -1,0 +1,6 @@
+framework module Pods_aliyun {
+  umbrella header "Pods-aliyun-umbrella.h"
+
+  export *
+  module * { export * }
+}

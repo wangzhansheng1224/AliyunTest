@@ -8,14 +8,8 @@
 
 #import "ViolationController.h"
 #import "TableViewCell.h"
-//#import "ViolationModel.h"
-#import "NSObject+YYModel.h"
-#define IMScreenWidth [UIScreen mainScreen].bounds.size.width
-#define IMScreenHeight [UIScreen mainScreen].bounds.size.height
-#define ShowAlertWithMsg(msg) UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"温馨提示" message:msg preferredStyle:UIAlertControllerStyleAlert];\
-UIAlertAction *sureAction = [UIAlertAction actionWithTitle:@"确 定" style:UIAlertActionStyleDefault handler:nil];\
-[alert addAction:sureAction];\
-[self presentViewController:alert animated:YES completion:nil];
+
+
 @interface ViolationController ()
 @property (nonatomic, strong) UITextField *textField1;
 @property (nonatomic, strong) UITextField *textField2;
@@ -90,10 +84,8 @@ UIAlertAction *sureAction = [UIAlertAction actionWithTitle:@"确 定" style:UIAl
         NSLog(@"Response object: %@" , response);
         NSString *bodyString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
         
+        ShowAlertWithMsg(bodyString)
         
-        ViolationModel *model = [ViolationModel modelWithJSON:data];
-//
-//        NSString *msg = [NSString stringWithFormat:@"%@",model.data];
         //打印应答中的body
         NSLog(@"Response body: %@" , bodyString);
     }];
