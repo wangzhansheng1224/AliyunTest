@@ -11,8 +11,21 @@
 @implementation City
 @end
 
-@implementation VehicleLimitModel
-+ (NSDictionary *)modelContainerPropertyGenericClass {
-    return @{@"result" : City.class};
-}
+@implementation VehicleLimitCityModel
 @end
+
+@implementation VehicleLimitModel
+@end
+
+@implementation OilList
+@end
+
+@implementation ShowapiResBody
+@end
+
+@implementation TodayOilModel
+@end
+
+
+
+
