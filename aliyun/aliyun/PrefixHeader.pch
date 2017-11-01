@@ -16,6 +16,6 @@ UIAlertAction *sureAction = [UIAlertAction actionWithTitle:@"确 定" style:UIAl
 [alert addAction:sureAction];\
 [self presentViewController:alert animated:YES completion:nil];
 
-#import <YYKit/YYKit.h>
+#import <YYModel/YYModel.h>
 
 #endif /* PrefixHeader_pch */

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FF372142BDCEA689547C8FF /* libPods-aliyun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0922E4C64B930396E5E9EAC6 /* libPods-aliyun.a */; };
 		D2099C8E1FA2DF7700949584 /* WZSModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2099C8D1FA2DF7700949584 /* WZSModel.m */; };
 		D2DEFD2B1FA0A53000B9D327 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD2A1FA0A53000B9D327 /* main.m */; };
 		D2DEFD2E1FA0A53000B9D327 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD2D1FA0A53000B9D327 /* AppDelegate.m */; };
@@ -20,7 +21,6 @@
 		D2DEFD671FA18B2600B9D327 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD661FA18B2600B9D327 /* TableViewController.m */; };
 		D2DEFD791FA1BE6700B9D327 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2DEFD771FA1BE6700B9D327 /* TableViewCell.m */; };
 		D2DEFD7A1FA1BE6700B9D327 /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2DEFD781FA1BE6700B9D327 /* TableViewCell.xib */; };
-		D6651331B1335F8ADB3FC651 /* Pods_aliyun.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C85E709FEA36C19DDA0D5A5D /* Pods_aliyun.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0922E4C64B930396E5E9EAC6 /* libPods-aliyun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-aliyun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B973FB9A1D9E4EA4C85FA2 /* Pods-aliyun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aliyun.release.xcconfig"; path = "Pods/Target Support Files/Pods-aliyun/Pods-aliyun.release.xcconfig"; sourceTree = "<group>"; };
 		2D2A97C683F20909B4CBB44F /* Pods-aliyun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-aliyun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-aliyun/Pods-aliyun.debug.xcconfig"; sourceTree = "<group>"; };
-		C85E709FEA36C19DDA0D5A5D /* Pods_aliyun.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_aliyun.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2099C881FA2D6CF00949584 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D2099C8C1FA2DF7700949584 /* WZSModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WZSModel.h; sourceTree = "<group>"; };
 		D2099C8D1FA2DF7700949584 /* WZSModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZSModel.m; sourceTree = "<group>"; };
@@ -77,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6651331B1335F8ADB3FC651 /* Pods_aliyun.framework in Frameworks */,
+				7FF372142BDCEA689547C8FF /* libPods-aliyun.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -110,7 +110,7 @@
 		CF74E63F082DC0D3A29A1311 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C85E709FEA36C19DDA0D5A5D /* Pods_aliyun.framework */,
+				0922E4C64B930396E5E9EAC6 /* libPods-aliyun.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -346,12 +346,12 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-aliyun/Pods-aliyun-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

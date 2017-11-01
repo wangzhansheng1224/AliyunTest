@@ -1,6 +1,6 @@
 platform :ios, '8.0'
-use_frameworks!
-target'aliyun’do
-pod 'YYKit', '~> 1.0.9'
+#use_frameworks!
+target'aliyun'do
+pod 'YYModel', '~> 1.0.4'
 pod 'AFNetworking', '~> 3.1.0'
 end

@@ -62,7 +62,7 @@
         NSLog(@"Response object: %@" , response);
         NSString *bodyString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
         
-        VehicleLimitCityModel *model = [VehicleLimitCityModel modelWithJSON:data];
+        VehicleLimitCityModel *model = [VehicleLimitCityModel yy_modelWithJSON:data];
         NSLog(@"%@",model);
         //打印应答中的body
         NSLog(@"Response body: %@" , bodyString);
@@ -88,7 +88,7 @@
         NSLog(@"Response object: %@" , response);
         NSString *bodyString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
         
-        VehicleLimitModel *model = [VehicleLimitModel modelWithJSON:data];
+        VehicleLimitModel *model = [VehicleLimitModel yy_modelWithJSON:data];
         NSLog(@"%@",model);
         //打印应答中的body
         NSLog(@"Response body: %@" , bodyString);
@@ -118,7 +118,7 @@
         NSLog(@"Response object: %@" , response);
         NSString *bodyString = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
         
-        TodayOilModel *model = [TodayOilModel modelWithJSON:bodyString];
+        TodayOilModel *model = [TodayOilModel yy_modelWithJSON:bodyString];
         NSLog(@"%@",model);
         //打印应答中的body
         NSLog(@"Response body: %@" , bodyString);
